@@ -15,9 +15,10 @@ client.on('message', message => {
     if (message.content === 'ping') {
 
         message.reply('pong');
-
-      }
-
+  
+    if (message.content ===  'Help') {
+      
+        message.reply('dm @Logic#4484 for help')
 });
 
 
