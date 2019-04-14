@@ -18,7 +18,7 @@ client.on('message', message => {
   
     if (message.content ===  'Help') {
       
-        message.reply('dm @Logic#4484 for help')
+        message.reply('dm @Logic#4484 for help');
 });
 
 
